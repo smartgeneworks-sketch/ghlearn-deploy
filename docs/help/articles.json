@@ -1,0 +1,130 @@
+[
+ {
+  "slug": "student-sign-up",
+  "audience": "students",
+  "order": 10,
+  "title": "Create your student account",
+  "summary": "Sign up with your email, then set up your subjects.",
+  "body": "## What you need\n\n- an email address you can open\n- a password with at least 10 characters, including a letter and a number\n- optionally, a Ghana mobile number (recommended, so you can sign in and reset your password with your phone)\n\n## Steps\n\n1. Open [Sign up](/register). You can also use **Sign up** at the top of any page and choose **Student account**.\n2. Enter your full name, email and password. Add your mobile number if you have one.\n3. If you are under 18, ask a parent or guardian to agree first. You can add their email under **Parent/guardian email (optional)**.\n4. Tick the box to agree to the terms of use and privacy notice, then create your account.\n5. On **Set up your learning space**, choose your region, type your school name, then choose your level, year of study, learning area (optional) and subjects. Press **Next**, then **Confirm**.\n\n> Type your school name the way your school writes it. If it matches a school on GH Learn, you can see your school's teachers and book sessions with them.\n\nYou can change your subjects later from **My profile**.\n"
+ },
+ {
+  "slug": "student-verify-phone",
+  "audience": "students",
+  "order": 20,
+  "title": "Add and verify your phone number",
+  "summary": "Use your phone to sign in and reset a forgotten password.",
+  "body": "A verified phone number lets you sign in with your number instead of your email, and get a password-reset code by SMS.\n\n## Steps\n\n1. Sign in and open **Account** at the top of the page.\n2. Under **Phone number**, enter your Ghana mobile number (for example 024 123 4567) and press **Verify**.\n3. We send a 6-digit code by SMS. Enter it under **6-digit code**.\n4. When it shows **Verified**, you are done.\n\n## Good to know\n\n- If you added a number when you signed up, it still needs this check once.\n- Codes expire quickly. If yours does not arrive or has expired, wait a minute and ask for a new one.\n- To stop using the number, press **Remove phone number**.\n"
+ },
+ {
+  "slug": "student-ai-tutor",
+  "audience": "students",
+  "order": 30,
+  "title": "Use the AI tutor",
+  "summary": "Ask questions about a subject and get hints, explanations or a check of your answer.",
+  "body": "## Open the tutor\n\n1. Go to **My subjects** and open a subject.\n2. Press **Ask the tutor**.\n\n## Choose a mode\n\n- **Hint first**: the tutor guides you step by step instead of giving the answer straight away. Best for homework.\n- **Explain**: a full explanation of a topic or idea.\n- **Check my answer**: paste your working or answer and the tutor checks it.\n\nType your question under **Your question** and press **Send**. Use **New conversation** to start a fresh topic. You can mark answers as helpful or not helpful.\n\n> The AI tutor can make mistakes. Check important facts with your teacher or your learner manual. Never share passwords, your phone number or your home address in a chat.\n\nThere is a daily limit on messages so the tutor stays available for everyone. Chats are deleted automatically after 180 days.\n"
+ },
+ {
+  "slug": "student-practice",
+  "audience": "students",
+  "order": 40,
+  "title": "Practise and take tests",
+  "summary": "Start a practice session, or complete work your teacher set.",
+  "body": "## Start a practice session\n\n1. Go to **My subjects**, open a subject and choose **Practice & tests**.\n2. Under **Start a practice session**, choose the topic, mode, number of questions and, if you like, a time limit in minutes.\n3. Press **Start**, answer the questions and press **Submit answers**.\n\nYou see your score straight away. Some written answers get a provisional mark until your teacher confirms it.\n\n## Work set by your teacher\n\nWork from your teacher is listed under **Set by your teacher**. If it has a time limit and time runs out, your saved answers are submitted automatically. Correct answers may only be shown after the assessment closes.\n\n## See how you are doing\n\nYour past attempts are under **History**, and **My progress** shows your progress across subjects.\n"
+ },
+ {
+  "slug": "student-book-session",
+  "audience": "students",
+  "order": 50,
+  "title": "Book a session with a teacher",
+  "summary": "Request a meeting at a time your teacher or counselor offers, or propose your own.",
+  "body": "## Before you start\n\nYou can only book teachers and counselors at your own school. Your school name in **My profile** must match a school on GH Learn. If it does not, you will see a message asking you to check the spelling or ask your school to join.\n\n## Steps\n\n1. Open **Meetings**.\n2. Under **Request a meeting**, choose the teacher or counselor.\n3. Pick one of the **Available times**, or use **Or propose a time** if none suit you.\n4. Enter the topic and, if you like, a note. Press **Send request**.\n\nYou get a notification when the teacher accepts, declines or suggests a new time. If they suggest a new time, press **Accept new time** to confirm it.\n\n## Joining\n\nFor online sessions, press **Join online meeting** at the time of the session. The call happens on an outside service (for example Google Meet or Zoom), not inside GH Learn. You can **Cancel** a request if you can no longer attend.\n"
+ },
+ {
+  "slug": "student-reset-password",
+  "audience": "students",
+  "order": 60,
+  "title": "Forgot your password?",
+  "summary": "Reset it by email, by SMS, or with a code from your teacher.",
+  "body": "## By email or SMS\n\n1. On the [sign-in page](/login), choose **Forgot password**, or open [Forgot your password?](/forgot-password).\n2. Enter your email, or your phone number if you have verified it.\n3. By email: open the link we send and choose a new password. By SMS: press **Enter the code**, type the code from the text message and choose a new password.\n\n## With help from your teacher or school\n\nIf you cannot get the email or SMS, ask your teacher or school administrator. They can give you a one-time reset code or a temporary password.\n\n- **Reset code**: open [Enter your reset code](/reset-password), type the code and choose a new password.\n- **Temporary password**: sign in with it. You will be asked to choose a new password straight away.\n\n> Never share your password. GH Learn staff will never ask for it.\n"
+ },
+ {
+  "slug": "teacher-apply",
+  "audience": "teachers",
+  "order": 10,
+  "title": "Apply for a teacher account",
+  "summary": "Send an application; your school or GH Learn checks it before your account is created.",
+  "body": "## Steps\n\n1. Open [Apply for a teacher account](/register/teacher). You can also use **Sign up** at the top of any page and choose **Teacher application**.\n2. Enter your full name, email and, optionally, your mobile number.\n3. Choose your region and your school. If it is not in the list, tick **My school is not listed** and type the school name.\n4. Choose the subjects and forms you teach. You can add your staff ID, teacher licence (NTC) number and a note for the reviewer. These are optional but help the reviewer.\n5. Press **Send application**.\n\nYou see **Application received**, and we email you (and text you, if you gave a number) to confirm.\n\n> Do not create a student account to use as a teacher. Teacher accounts are created only after approval.\n"
+ },
+ {
+  "slug": "teacher-approval-and-password",
+  "audience": "teachers",
+  "order": 20,
+  "title": "After approval: set your password",
+  "summary": "What happens after you apply, and how to sign in for the first time.",
+  "body": "## Approval\n\nYour school administrator or the GH Learn team reviews your application. If it is approved, you get an email titled **Your GH Learn account is ready** (and a text message, if you gave a number). If it is declined, the email gives the reason.\n\n## Set your password\n\n1. Open the button in the email. The link works once and expires after **72 hours**.\n2. On **Set your password**, choose a new password (10+ characters with a letter and a number) and confirm it.\n3. Press **Save password and sign in**.\n\n## If the link does not work\n\n- If it has expired or was already used, you will see **This link no longer works**. Press **Request a new link**, or ask your school administrator to use **Resend invite**.\n- If you already chose a password, just [sign in](/login). If you forgot it, use [Forgot password](/forgot-password).\n"
+ },
+ {
+  "slug": "teacher-classes-and-students",
+  "audience": "teachers",
+  "order": 30,
+  "title": "Create classes and add students",
+  "summary": "Set up a class for a subject and add students from your school.",
+  "body": "## Create a class\n\n1. Open **Teaching**.\n2. Under **New class**, enter a class name (for example 1 Science A), choose the subject and year, and press **Create class**.\n\nYou can only create classes for subjects you are assigned to. If you see **You have no assigned subjects yet**, ask your school administrator.\n\n## Add students\n\n1. Open the class and go to **Members**.\n2. Under **Add students**, tick the students and press the **Add** button (it shows how many you picked).\n\nThe list shows students at your school who take that subject (and year). Students appear only after they have signed up and their school name matches your school. If a student is missing, ask them to check the school name in **My profile**.\n\n## Work with the class\n\nFrom the class you can **Set new work for this class**, see **Mastery by topic**, **Weak topics** and **Repeated mistakes**, mark written answers under **To mark**, set remedial practice, and download a **PDF report**. Use **Archive class** at the end of the year; nothing is deleted.\n"
+ },
+ {
+  "slug": "teacher-meetings",
+  "audience": "teachers",
+  "order": 40,
+  "title": "Offer meeting times to students",
+  "summary": "Publish your availability, then accept, decline or reschedule requests.",
+  "body": "## Publish your availability\n\n1. Open **Meetings**.\n2. Under **My availability**, choose the start time and duration, and whether the session is **In person** or **Online** (or both).\n3. For in-person sessions add the room or location. For online sessions add the meeting link (it must start with https://), for example a Google Meet or Zoom link.\n4. Press **Add slot**.\n\nStudents at your school can then request your open times, or propose another time.\n\n## Answer requests\n\nRequests appear in **Meetings** and in your notifications. You can **Accept**, **Decline**, or **Reschedule** by proposing a new time; the student must accept the new time. If you add an online link when accepting, the student sees **Join online meeting**.\n\n> Sessions happen on the outside video service. GH Learn does not host or record them. Booked slots cannot be removed; cancel the booking first.\n"
+ },
+ {
+  "slug": "teacher-student-password-help",
+  "audience": "teachers",
+  "order": 50,
+  "title": "Help a student who cannot sign in",
+  "summary": "Give a one-time reset code or a temporary password.",
+  "body": "First, suggest that the student uses [Forgot password](/forgot-password) with their email or verified phone number.\n\nIf that does not work:\n\n1. Open **Teaching**, open the class and then the student.\n2. Under **Password help**, choose one option:\n   - **Create reset link**: you get a link and a 12-character code, shown once and valid for 24 hours. The student opens the link, or enters the code at **Enter your reset code**, and chooses a new password. Their current password keeps working until then.\n   - **Set temporary password**: a temporary password is shown once. Their current password stops working and they must choose a new one when they next sign in.\n3. Give the code or temporary password to the student in person. Do not send it in a group chat.\n\nBoth actions are recorded in the audit log and the student is told in the app. You can only do this for students in your own classes.\n"
+ },
+ {
+  "slug": "admin-review-applications",
+  "audience": "school_admins",
+  "order": 10,
+  "title": "Review teacher applications",
+  "summary": "Approve or reject teachers who applied to join your school.",
+  "body": "1. Open **Admin panel**, then **Users and Permissions**, then the **Teacher applications** tab. A red number shows how many are waiting.\n2. Open an application under **Waiting for review**. Check the name, contact details, school, subjects and forms, and any staff ID or licence number.\n3. To approve: choose the **Subjects to assign** and press **Approve**. The teacher account is created and the teacher gets an email (and an SMS if they gave a number) with a link to set their password.\n4. To reject: enter a **Reason for rejecting (sent to the applicant)** and press **Reject**.\n\nIf the teacher did not receive the email or the link expired, open the application and press **Resend invite**. A new link replaces the old one.\n\n> If the applicant typed a school that is not on GH Learn yet, a super admin must create the school (or match it to an existing one) before the application can be approved.\n"
+ },
+ {
+  "slug": "admin-add-teachers",
+  "audience": "school_admins",
+  "order": 20,
+  "title": "Add a teacher directly",
+  "summary": "Create a teacher account yourself and send them an invitation.",
+  "body": "Use this when a teacher has not applied through the form.\n\n1. Open **Admin panel**, then **Users and Permissions**, and press **Add user**.\n2. Enter the full name and email, choose the role **Teacher** and your school, then press **Create user**.\n3. The teacher gets an email with a link to set their password (valid for 72 hours). If the email could not be sent, a temporary password is shown once instead; give it to the teacher in person.\n4. Open the new user and use **Assign subject** so they can create classes for their subjects.\n\nIf the invitation expires, open the user and press **Resend invite**.\n"
+ },
+ {
+  "slug": "admin-classes",
+  "audience": "school_admins",
+  "order": 30,
+  "title": "Manage classes and enrolments",
+  "summary": "Create classes, add teachers and enrol students.",
+  "body": "1. Open **Admin panel**, then **Classes and Enrolments**.\n2. Press **Add class**. Enter the class name, year of study and academic year. For a subject class choose the subject; leave it empty for a form class.\n3. Open the class. Under **Teachers**, use **Add a teacher**. Under **Find students to enrol**, search and select students, then enrol them.\n\n## Good to know\n\n- The subject of a class cannot change while students are enrolled.\n- **Archive class** hides it from teachers and lists. Students stay enrolled and records are kept, and you can restore it.\n- At the end of the year, use **Change academic year** to plan and apply moving classes to the next year.\n- **Export enrolments** downloads a list of who is in which class.\n"
+ },
+ {
+  "slug": "admin-csv-import",
+  "audience": "school_admins",
+  "order": 40,
+  "title": "Import enrolments from a CSV file",
+  "summary": "Add many students to classes at once, with a preview before anything changes.",
+  "body": "## 1. Prepare the file\n\n1. Open **Admin panel**, then **Classes and Enrolments**, then **Import enrolments**.\n2. Press **Download template**. Columns: `email, full_name, class, year_of_study, academic_year`. Required: `email` and `class`.\n3. Put one row per student per class. Use the academic year (for example 2026/2027) when class names repeat across years.\n\n## 2. Upload and preview\n\n1. Choose the CSV file (or paste the CSV), and choose whether to **Create form classes that do not exist yet**.\n2. Press **Preview import**. Nothing is saved yet. Fix any rows with errors, or use **Download error report**.\n3. Press **Import rows** (or **Import only the valid rows**) and confirm.\n\nNew student accounts get credentials; download them once with **Download credentials CSV** and hand them over securely. A finished import can be undone with **Roll back import** from **Import history**.\n"
+ },
+ {
+  "slug": "admin-password-resets",
+  "audience": "school_admins",
+  "order": 50,
+  "title": "Reset a password or unlock an account",
+  "summary": "Help any user at your school who cannot sign in.",
+  "body": "1. Open **Admin panel**, then **Users and Permissions**, and open the user.\n2. Under **Security and recovery**, choose:\n   - **Create reset link**: a link and a 12-character code, shown once and valid for 24 hours. Their current password keeps working until they use it.\n   - **Set temporary password**: shown once. Their current password stops working, all sessions sign out, and they must choose a new password at next sign-in.\n   - **Unlock account**: clears the lockout after repeated failed sign-ins.\n   - **Sign out everywhere**: ends all sessions without changing the password.\n3. Give codes or temporary passwords in person.\n\nEvery action is recorded in the audit log, and the user is told in the app. Students can also reset their own password by email or verified phone at [Forgot password](/forgot-password).\n"
+ }
+]

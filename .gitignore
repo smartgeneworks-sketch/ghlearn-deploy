@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+coverage
+web/test-results
+web/playwright-report
+web/.firebase
+scripts/manuals/__pycache__/

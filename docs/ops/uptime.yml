@@ -1,0 +1,26 @@
+# Uptime check for GH Learn. Fails (and GitHub emails the workflow owner) when the website or the API is down.
+# Every 30 minutes keeps it inside the free 2,000 Actions minutes/month of a private repo (each run is billed as 1 minute,
+# about 1,490 minutes/month). GitHub may start scheduled runs late when it is busy. No secrets are used.
+name: Uptime check
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+permissions: {}
+concurrency: { group: uptime, cancel-in-progress: false }
+jobs:
+  check:
+    if: github.repository == 'smartgeneworks-sketch/ghlearn'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Website https://ghlearn.com
+        run: |
+          code=$(curl -sS -o page.html -w '%{http_code}' --retry 3 --retry-delay 20 --retry-all-errors --max-time 60 https://ghlearn.com/) || code=000
+          echo "HTTP $code"; test "$code" = 200 && grep -qi '<div id="root"' page.html
+      - name: API https://api.ghlearn.com/api/health (free Render may need up to ~60 s to wake)
+        run: |
+          body=$(curl -sS --retry 4 --retry-delay 20 --retry-all-errors --max-time 90 https://api.ghlearn.com/api/health) || { echo "API unreachable"; exit 1; }
+          echo "$body"
+          echo "$body" | grep -q '"ok":true' || { echo "API not ok"; exit 1; }
+          echo "$body" | grep -q '"db":true' || { echo "API up but database unreachable"; exit 1; }
