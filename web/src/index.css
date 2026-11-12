@@ -1,0 +1,11 @@
+@import "tailwindcss";
+/* Brand palette: defaults here; System settings → Theme overrides these variables at runtime (lib/platform.tsx). */
+@theme { --color-brand-50:#ecfdf5; --color-brand-100:#d1fae5; --color-brand-600:#059669; --color-brand-700:#047857; --color-brand-800:#065f46; --color-brand-900:#064e3b; --color-gold-400:#facc15;
+  --color-navy-950:#071427; --color-navy-900:#0b1d38; --color-navy-800:#132b4f; --color-navy-700:#1e3a66; --color-navy-100:#e3e9f3; --color-navy-50:#f3f6fb; }
+/* Landing: restrained entrance + float, off for reduced motion. */
+@keyframes gl-rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes gl-float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+.gl-rise { animation: gl-rise .6s cubic-bezier(.2,.7,.2,1) both; }
+.gl-float { animation: gl-float 7s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .gl-rise, .gl-float { animation: none !important; } html { scroll-behavior: auto !important; } }
+:focus-visible { outline: 3px solid var(--color-gold-400); outline-offset: 2px; }

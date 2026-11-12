@@ -1,0 +1,2 @@
+import { defineConfig } from 'vitest/config';
+export default defineConfig({ test: { testTimeout: 60000, hookTimeout: 180000, fileParallelism: false, env: { NODE_ENV: 'test', JWT_ACCESS_SECRET: 'test-access-secret-0123456789abcdef', JWT_REFRESH_SECRET: 'test-refresh-secret-0123456789abcdef', LOG_LEVEL: 'silent', GEMINI_API_KEY: '', EMBEDDING_PROVIDER: 'test-hash', WORKER_ENABLED: 'false', OCR_PROVIDER: '', AI_USER_DAILY_REQUESTS: '1000', AI_SCHOOL_DAILY_REQUESTS: '10000' } } });

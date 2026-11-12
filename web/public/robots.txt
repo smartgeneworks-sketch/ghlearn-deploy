@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /learn
+Disallow: /teach
+Disallow: /progress
+Disallow: /meetings
+Disallow: /saved
+Disallow: /onboarding
+Sitemap: https://ghlearn.com/sitemap.xml
