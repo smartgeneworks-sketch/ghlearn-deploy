@@ -1,0 +1,114 @@
+{
+ "updatedAt": "2026-10-17T06:24:52.866037Z",
+ "inventory": {
+  "learnerManualRecords": 1560,
+  "byteIdenticalDuplicates": 443,
+  "canonical": 1117,
+  "canonicalBySection": {
+   "SHS": 968,
+   "SHS (unlinked)": 82,
+   "JHS (unlinked)": 67
+  },
+  "pages": 62976,
+  "textChars": 92415881,
+  "pdfMB": 4531
+ },
+ "verification": {
+  "passed": 595,
+  "flagged": 522,
+  "flagCategories": {
+   "metadata": 117,
+   "teacher_version": 424,
+   "jhs_disabled": 8,
+   "file_unreadable": 1,
+   "needs_ocr": 1
+  },
+  "appliedLive": 1117,
+  "applyErrors": 0,
+  "applyTransientRetried": 6
+ },
+ "ingestPlan": {
+  "selected": 483,
+  "contentCovered": 112,
+  "pages": 29543,
+  "textChars": 43259082
+ },
+ "bulkRun": {
+  "runId": "6ad2696ddec2d0baa1f493d3",
+  "nextTickJobId": "6ad2d20aeb4818ffebcb35b6",
+  "nextTickStatus": "succeeded",
+  "nextTickAt": "2026-10-17T01:41:26.700Z",
+  "startedAt": "2026-10-16T18:14:05.660Z",
+  "settings": {
+   "throttleMs": 250,
+   "activeHoursUtc": null,
+   "dailyEmbedRequests": 800,
+   "maxInFlight": 2,
+   "maxTries": 2,
+   "monthCostShare": 0.9
+  },
+  "cancelled": false,
+  "last": {
+   "runId": "6ad2696ddec2d0baa1f493d3",
+   "total": 483,
+   "indexed": 483,
+   "inFlight": 0,
+   "pending": 0,
+   "failed": [],
+   "skipped": 0,
+   "queuedNow": [],
+   "paused": null,
+   "embeddingRequestsToday": 204,
+   "dailyEmbedRequests": 800,
+   "monthEstCostUsd": 1.9102,
+   "embeddingMonth": {
+    "requests": 969,
+    "chars": 49676300,
+    "estTokens": 12419075,
+    "estCostUsd": 1.8629
+   },
+   "finished": true,
+   "at": "2026-10-17T01:44:26.866Z"
+  },
+  "now": {
+   "total": 483,
+   "indexed": 483,
+   "inFlight": 0,
+   "pending": 0,
+   "failed": [],
+   "skipped": 0
+  }
+ },
+ "storage": {
+  "dataMB": 221.6,
+  "indexMB": 11.5,
+  "quotaMB": 512,
+  "collections": {
+   "chunks": {
+    "dataBytes": 169642788,
+    "indexBytes": 2355200,
+    "avgDocBytes": 4889
+   },
+   "documentpages": {
+    "dataBytes": 48485623,
+    "indexBytes": 1097728,
+    "avgDocBytes": 1641
+   },
+   "curriculumdocuments": {
+    "dataBytes": 4786944,
+    "indexBytes": 2437120,
+    "avgDocBytes": 1701
+   },
+   "jobs": {
+    "dataBytes": 6820368,
+    "indexBytes": 245760,
+    "avgDocBytes": 8857
+   },
+   "auditlogs": {
+    "dataBytes": 1427777,
+    "indexBytes": 307200,
+    "avgDocBytes": 654
+   }
+  }
+ }
+}

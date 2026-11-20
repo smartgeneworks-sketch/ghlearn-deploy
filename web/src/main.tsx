@@ -1,0 +1,13 @@
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { AuthProvider } from './lib/auth';
+import { App } from './App';
+import { MotionConfig } from 'framer-motion';
+import './index.css';
+import { registerSW } from './lib/offline';
+import { PlatformEffects, MaintenanceGate } from './lib/platform';
+registerSW();
+const qc = new QueryClient({ defaultOptions: { queries: { staleTime: 30_000, refetchOnWindowFocus: false } } });
+createRoot(document.getElementById('root')!).render(<StrictMode><MotionConfig reducedMotion="user"><QueryClientProvider client={qc}><BrowserRouter><PlatformEffects /><MaintenanceGate><AuthProvider><App /></AuthProvider></MaintenanceGate></BrowserRouter></QueryClientProvider></MotionConfig></StrictMode>);
